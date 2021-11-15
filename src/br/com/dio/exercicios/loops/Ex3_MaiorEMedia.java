@@ -9,7 +9,7 @@ public class Ex3_MaiorEMedia {
 		int numero, i=0, maior = 0, soma = 0, media;
 		do {
 			System.out.println("Numero "+ (i+1) + ": ");
-			numero =scan.nextInt();
+			numero = scan.nextInt();
 			if(numero > maior) {
 				maior = numero;
 			}
@@ -20,6 +20,6 @@ public class Ex3_MaiorEMedia {
 		
 		media = soma/5;
 		System.out.println("\nO maior número é: " + maior + "\nE a média entre eles é: " + media);
-		
+		scan.close();
 	}
 }
