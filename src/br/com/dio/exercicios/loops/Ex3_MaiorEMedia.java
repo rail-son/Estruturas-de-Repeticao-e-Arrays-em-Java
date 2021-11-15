@@ -10,9 +10,8 @@ public class Ex3_MaiorEMedia {
 		do {
 			System.out.println("Numero "+ (i+1) + ": ");
 			numero = scan.nextInt();
-			if(numero > maior) {
-				maior = numero;
-			}
+			if(numero > maior) maior = numero;
+			
 			soma += numero; 
 			
 			i++;
