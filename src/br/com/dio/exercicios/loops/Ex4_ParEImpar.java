@@ -22,5 +22,6 @@ public class Ex4_ParEImpar {
 		} while(i < qtd_numeros);
 		
 		System.out.println("\nForam digitados " + pares + " números PARES e " + impares + " números IMPARES.");
+		scan.close();
 	}
 }
